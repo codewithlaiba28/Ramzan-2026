@@ -1,0 +1,187 @@
+.main {
+    min-height: 100vh;
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    margin: 20px;
+    /* Spacing from header and container edges */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    background-image:
+        linear-gradient(rgba(5, 10, 21, 0.7), rgba(5, 10, 21, 0.9)),
+        url('/images/hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 30px;
+    /* Curved on all sides */
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.8);
+    margin-bottom: 60px;
+    /* Spacing from the countdown section */
+}
+
+.heroContent {
+    animation: fadeIn 1s ease-out;
+}
+
+.title {
+    font-size: 4.5rem;
+    letter-spacing: -1px;
+    margin-bottom: 8px;
+    background: linear-gradient(135deg, var(--text-gold), #fff, var(--text-gold));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.3));
+}
+
+.subtitle {
+    font-size: 1.8rem;
+    color: var(--text-gold);
+    opacity: 0.9;
+    letter-spacing: 2px;
+}
+
+.dateInfo {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+.englishDate {
+    font-weight: 300;
+}
+
+.hijriDate {
+    font-weight: 500;
+    color: var(--accent);
+}
+
+.countdownSection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.timerCard {
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.timerLabel {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--accent);
+    margin-bottom: 20px;
+    display: block;
+}
+
+.timerValue {
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+.prayerTimesList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.prayerCardSmall {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionTitle {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.sunnahGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.sunnahCard {
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.sunnahIcon {
+    font-size: 2.5rem;
+    filter: drop-shadow(0 0 5px var(--accent));
+}
+
+.sunnahContent h4 {
+    margin-bottom: 10px;
+}
+
+.sunnahContent p {
+    line-height: 1.6;
+    opacity: 0.8;
+}
+
+.ashraHighlight {
+    text-align: center;
+    padding: 60px;
+    margin-bottom: 80px;
+    border-radius: 40px;
+    background: radial-gradient(circle at 50% 50%, rgba(27, 107, 58, 0.15), transparent);
+}
+
+.duaLarge {
+    font-size: 2.5rem;
+    line-height: 1.8;
+    margin: 30px 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 3rem;
+    }
+
+    .timerValue {
+        font-size: 2.5rem;
+    }
+
+    .main {
+        padding-top: 40px;
+    }
+}

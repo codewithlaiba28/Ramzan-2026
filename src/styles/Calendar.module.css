@@ -1,0 +1,91 @@
+.main {
+    padding: 80px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 3rem;
+    background: linear-gradient(135deg, var(--text-gold), #fff, var(--text-gold));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tableContainer {
+    overflow-x: auto;
+    border-radius: 24px;
+    padding: 10px;
+}
+
+.calendarTable {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.calendarTable th {
+    color: var(--text-gold);
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+}
+
+.calendarTable tr {
+    transition: transform 0.2s ease;
+}
+
+.calendarTable tr:hover {
+    transform: scale(1.01);
+}
+
+.calendarTable td {
+    padding: 20px;
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid var(--card-border);
+    border-bottom: 1px solid var(--card-border);
+}
+
+.calendarTable td:first-child {
+    border-left: 1px solid var(--card-border);
+    border-radius: 15px 0 0 15px;
+}
+
+.calendarTable td:last-child {
+    border-right: 1px solid var(--card-border);
+    border-radius: 0 15px 15px 0;
+}
+
+.rowAshra1 {
+    border-left: 5px solid var(--secondary) !important;
+}
+
+.rowAshra2 {
+    border-left: 5px solid var(--accent) !important;
+}
+
+.rowAshra3 {
+    border-left: 5px solid #ff4d4d !important;
+}
+
+.today td {
+    background: rgba(212, 175, 55, 0.2);
+    border-color: var(--accent);
+}
+
+.hijriCell {
+    font-family: var(--font-arabic);
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+
+    .calendarTable th,
+    .calendarTable td {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+}

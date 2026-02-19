@@ -1,0 +1,99 @@
+.main {
+    padding: 80px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 3rem;
+    background: linear-gradient(135deg, var(--text-gold), #fff, var(--text-gold));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dualSection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.duaCard {
+    padding: 40px;
+    text-align: center;
+}
+
+.categoryLabel {
+    letter-spacing: 4px;
+    color: var(--accent);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.timeValue {
+    font-size: 3.5rem;
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.duaArabic {
+    font-size: 1.8rem;
+    margin: 25px 0;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.duaUrdu {
+    font-size: 1.2rem;
+    color: var(--text-gold);
+    line-height: 1.5;
+}
+
+.foodSection {
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.foodGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.foodItem {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.icon {
+    font-size: 2.5rem;
+    min-width: 60px;
+}
+
+.foodItem h4 {
+    margin-bottom: 5px;
+    color: var(--accent);
+}
+
+.foodItem p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+    .dualSection {
+        grid-template-columns: 1fr;
+    }
+
+    .timeValue {
+        font-size: 2.5rem;
+    }
+
+    .duaArabic {
+        font-size: 1.4rem;
+    }
+}
