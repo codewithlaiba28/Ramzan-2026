@@ -28,7 +28,7 @@ const SehriIftarPage: React.FC = () => {
                     <span className={styles.categoryLabel}>{language === 'ur' ? 'افطار' : 'IFTAR'}</span>
                     <div className={styles.timeValue}>{prayerTimes.maghrib}</div>
                     <h3>{language === 'ur' ? 'افطار کی دعا' : 'Iftar Dua'}</h3>
-                    <p className={`${styles.duaArabic} arabic-text`}>اللَّهُمَّ إِنِّي لَكَ صُمْتُ وَبِك آمنْتُ وَعَلَيْكَ تَوَكَّلْتُ وَعَلَى رِزْقِكَ أَفْطَرْتُ</p>
+                    <p className={`${styles.duaArabic} arabic-text`}>اللَّهُمَّ إِنِّي لَكَ صُمْتُ وَبِكَ آمَنْتُ وَعَلَيْكَ تَوَكَّلْتُ وَعَلَى رِزْقِكَ أَفْطَرْتُ</p>
                     <p className={`${styles.duaUrdu} urdu-text`}>اے اللہ! میں نے تیرے لیے روزہ رکھا اور تجھ پر ایمان لایا اور تجھ پر بھروسہ کیا اور تیرے دیے ہوئے رزق سے افطار کیا</p>
                 </div>
             </div>
