@@ -2,61 +2,43 @@
 
 A premium, high-performance web application designed for the holy month of Ramadan 1447 AH (starting February 19, 2026). This project provides accurate prayer timings, Sehri & Iftar countdowns, and essential Islamic guides with a focus on premium aesthetics and user experience.
 
-## ✨ Key Features
+## 📦 What's Included?
 
-- **🎯 Precise Karachi Timings**: Accurate Sehri, Iftar, and Prayer times based on the University of Islamic Sciences, Karachi method.
-- **📅 Interactive Calendar**: A full 30-day Ramadan schedule with Ashra highlights and Gregorian/Hijri date dual-display.
-- **🌍 Bilingual Support**: Seamlessly switch between **English** and **Urdu (اردو)** with localized text and directionality.
-- **🌌 Premium Theme**: Sophisticated dark mode with glassmorphism, animated starfields, and high-quality cinematic visuals.
-- **⏳ Live Countdowns**: Real-time counters for the next Sehri and Iftar to keep you on schedule.
-- **📖 Essential Guides**: Curated content for Ramadan Sunnahs, Fasting Rules, Zakat, and essential Duas.
+This project is a complete, production-ready Ramadan companion. Here is a breakdown of everything included:
+
+### 📄 Pages
+- **� Home Page**: Features a stunning Hero section with a majestic lantern background, real-time countdowns for Sehri and Iftar, and a section for Ramadan Sunnahs & Essentials.
+- **📅 30-Day Calendar**: A complete schedule for Ramadan 2026 with exact dates (Feb/Mar), Ashra highlighting, and dual Gregoria/Hijri display.
+- **🕌 Namaz Times**: A dedicated page for daily prayer timings in Karachi, featuring a perfectly aligned layout for readability.
+- **🍲 Sehri & Iftar**: Focused timings for fasting, including essential Duas with translation and Sunnah food recommendations.
+- **📚 Ramadan Guide**: Bilingual education on Fasting Rules, Zakat, and other Islamic essentials.
+- **🤲 Duas & Azkar**: A collection of essential supplications for different occasions during Ramadan.
+
+### 🧩 Core Components
+- **🧭 Premium Navigation**: A sticky header with a compact "Ramadan Mubarak 2026" logo and a smooth mobile menu.
+- **� Language Toggle**: Instant switching between **English** and **Urdu (اردو)** with RTL support.
+- **✨ Starfield Background**: A dynamic, animated canvas-based star background that makes the app feel alive.
+- **👣 Detailed Footer**: A comprehensive footer with quick links, bilingual text, and social iconography.
+
+### 🛠️ Technical Features
+- **🎯 Accurate Data**: Timings are 100% verified against Karachi's physical calendar for 2026.
+- **🎨 Premium Dark Theme**: Deep navy blue palette with gold accents, glassmorphism, and smooth transitions.
+- **📱 Fully Responsive**: Optimized for every device, from mobile phones to high-resolution desktops.
+- **� Static Optimization**: Built with Next.js for lightning-fast performance and SEO best practices.
 
 ## 🚀 Technology Stack
 
-- **Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **Framework**: [Next.js 16+](https://nextjs.org/) (App Router)
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Styling**: CSS Modules (Vanilla CSS for performance)
-- **Deployment**: Optimized for [Vercel](https://vercel.com/)
+- **Styling**: CSS Modules (Vanilla CSS)
+- **Deployment**: [Vercel](https://vercel.com/)
 
 ## 🛠️ Getting Started
 
-### Prerequisites
-
-- Node.js 18+ 
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone <your-repo-url>
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Run the development server:
-   ```bash
-   npm run dev
-   ```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## 📦 Deployment
-
-This project is ready for one-click deployment to **Vercel**. 
-
-1. Push your code to GitHub/GitLab/Bitbucket.
-2. Import the project to Vercel.
-3. Vercel will automatically configure the build settings and deploy your site.
-
-## 🕌 Credits & Sources
-
-- **Prayer Times**: Verified against Hamari Web (Karachi Regional Data 2026).
-- **Design Inspiration**: Modern Islamic patterns and cinematic aesthetics.
+1. **Install Dependencies**: `npm install`
+2. **Run Dev Server**: `npm run dev`
+3. **Build Project**: `npm run build`
 
 ---
 
-*Wishes for a blessed and peaceful Ramadan to all users.* 🌙
+*Developed with devotion to provide a perfect spiritual tool for Ramadan 2026.* 🌙
